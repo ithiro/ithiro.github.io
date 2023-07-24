@@ -7,7 +7,6 @@
         font-family: serif;
         text-align: center;
         background-image: linear-gradient(BlanchedAlmond, FloralWhite);
-        overflow: hidden;
       }
       .container {
         margin-left: auto;
@@ -18,7 +17,7 @@
         display: inline-block;
         vertical-align: middle;
         horizontal-align: center;
-        width: 40%;
+        width: 49%;
       }
       .product {
         height: 160px;
@@ -35,9 +34,19 @@
         width: 30%;
       }
       .product-small {
-        height: 160px;
+        max-width: 100%;
+        max-height: 160px;
         margin-right: 4px;
         margin-left: 4px;
+      }
+      .QRCode {
+        word-wrap: break-word;
+        font-weight: bold;
+        font-family: monospace;
+        margin-right: 8px;
+        margin-left: 8px;
+        background-color: black;
+        color: white;
       }
     </style>
   </head>
@@ -57,6 +66,7 @@
     <h2>Robô Aspirador de Pó KaBuM! Smart 700</h2>
     <div class="container">
       <div class="item">
+        <i><p>R$ 1.399,99</p></i>
         <img
           class="product"
           src="https://images.kabum.com.br/produtos/fotos/155321/aspirador-de-po-robo-ir-360-kabum-smart-700-branco_1628688147_gg.jpg"
@@ -70,7 +80,7 @@
           src="QRCode-RoboAspiradorDePo.png"
           alt="00020126330014BR.GOV.BCB.PIX01110909568499752040000530398654071399.995802BR5922Joao Luiz I. S. Borges6008Curitiba62210517RoboAspiradorDePo6304E19C"
         >
-        <i><p>R$ 1.399,99</p></i>
+        <p class="QRCode">00020126330014BR.GOV.BCB.PIX01110909568499752040000530398654071399.995802BR5922Joao Luiz I. S. Borges6008Curitiba62210517RoboAspiradorDePo6304E19C</p>
       </div>
      </div>
      
@@ -78,12 +88,13 @@
     <h2>Cafeteira Elétrica Britânia CP15</h2>
     <div class="container">
       <div class="item">
+        <i><p>R$ 120,00</p></i>
         <img
           class="product"
           src="https://m.media-amazon.com/images/I/51ln-Qv-4FL._AC_SL1000_.jpg"
           alt="Cafeteira Elétrica Britânia CP15"
         >
-        <a href="https://a.co/d/jgl9C7t"><p>Link na loja Amazon!<p></a>
+        <a href="https://a.co/d/jgl9C7t"><p>Link na loja Amazon<p></a>
       </div>
       <div class="item">
         <img
@@ -91,7 +102,7 @@
           src="QRCode-CafeteiraEletrica.png"
           alt="00020126330014BR.GOV.BCB.PIX0111090956849975204000053039865406120.005802BR5922Joao Luiz I. S. Borges6008Curitiba62210517CafeteiraEletrica63042223"
         >
-        <i><p>R$ 120,00</p></i>
+        <p class="QRCode">00020126330014BR.GOV.BCB.PIX0111090956849975204000053039865406120.005802BR5922Joao Luiz I. S. Borges6008Curitiba62210517CafeteiraEletrica63042223</p>
       </div>
      </div>
      
@@ -99,52 +110,50 @@
     <h2>Presente em Dinheiro</h2>
     <div class="container-small">
       <div class="item-small">
+        <i><p>R$ 100,00</p></i>
         <img
           class="product-small"
           src="BronzeEnvelope.jpg"
           alt="Envelope de 100 reais"
-          style="margin-right: 8px;"
         >
         <img
           class="product-small"
           src="QRCode-100Reais.png"
           alt="00020126330014BR.GOV.BCB.PIX0111090956849975204000053039865406100.005802BR5922Joao Luiz I. S. Borges6008Curitiba62150511Dinheiro1006304BC9A"
         >
-        <i><p>R$ 100,00</p></i>
+        <p class="QRCode">00020126330014BR.GOV.BCB.PIX0111090956849975204000053039865406100.005802BR5922Joao Luiz I. S. Borges6008Curitiba62150511Dinheiro1006304BC9A</p>
       </div>
       <div class="item-small">
+        <i><p>R$ 1.000,00</p></i>
         <img
           class="product-small"
           src="SilverEnvelope.jpg"
           alt="Envelope de 1000 reais"
-          style="margin-right: 8px;"
         >
         <img
           class="product-small"
           src="QRCode-1000Reais.png"
           alt="00020126330014BR.GOV.BCB.PIX01110909568499752040000530398654071000.005802BR5922Joao Luiz I. S. Borges6008Curitiba62160512Dinheiro10006304B763"
         >
-        <i><p>R$ 1.000,00</p></i>
+        <p class="QRCode">00020126330014BR.GOV.BCB.PIX01110909568499752040000530398654071000.005802BR5922Joao Luiz I. S. Borges6008Curitiba62160512Dinheiro10006304B763</p>
       </div>
       <div class="item-small">
+        <i><p>R$ 10.000,00</p></i>
         <img
           class="product-small"
           src="GoldEnvelope.jpg"
           alt="Envelope de 10000 reais"
         >
-        <a href="00020126330014BR.GOV.BCB.PIX011109095684997520400005303986540810000.005802BR5922Joao Luiz I. S. Borges6008Curitiba62170513Dinheiro100006304CC28">
-          <img
-            class="product-small"
-            src="QRCode-10000Reais.png"
-            alt="00020126330014BR.GOV.BCB.PIX011109095684997520400005303986540810000.005802BR5922Joao Luiz I. S. Borges6008Curitiba62170513Dinheiro100006304CC28"
-            
-          >
-        </a>
-        <i><p>R$ 10.000,00</p></i>
+        <img
+          class="product-small"
+          src="QRCode-10000Reais.png"
+          alt="00020126330014BR.GOV.BCB.PIX011109095684997520400005303986540810000.005802BR5922Joao Luiz I. S. Borges6008Curitiba62170513Dinheiro100006304CC28"
+        >
+        <p class="QRCode">00020126330014BR.GOV.BCB.PIX011109095684997520400005303986540810000.005802BR5922Joao Luiz I. S. Borges6008Curitiba62170513Dinheiro100006304CC28</p>
       </div>
      </div>
     
-    <hr>
+    <hr><hr>
     <b><p>Te amo Aline!</p></b>
   </body>
 </html>
